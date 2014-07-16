@@ -168,10 +168,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #28c3ab;
     border-radius: 35px;
     font-size: 40px;
-    color: #fff;
+    color: #28c3ab;;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -181,10 +181,14 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
+    color: #28c3ab;;
     background: rgba(255,255,255,.1);
 }
 
+.img-responsive:hover,
+.img-responsive:focus {
+    border: 3px solid #28c3ab;
+}
 .page-scroll .btn-circle i.animated {
     -webkit-transition-property: -webkit-transform;
     -webkit-transition-duration: 1s;
