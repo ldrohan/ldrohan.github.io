@@ -231,10 +231,26 @@ and (orientation : portrait) {
     font-size: .8em;
     color: white;
     display:none;
-}   
- }
+    }   
+}
 
-
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+    a.texthover .overlay {
+    position:absolute;
+    top:45%;
+    width:0;
+    width:100%;
+    height:50%;
+    padding:10px;
+    background-color:rgba(0, 0, 0, 0.5);
+    font-size: .6em;
+    color: white;
+    display:none;
+    }   
+}
 
 
 .img-responsive {
